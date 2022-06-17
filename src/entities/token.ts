@@ -80,6 +80,32 @@ export const WETH = {
   ),
   [ChainId.GÖRLI]: new Token(ChainId.GÖRLI, '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.KOVAN]: new Token(ChainId.KOVAN, '0xd0A1E359811322d97991E03f863a0C30C2cF029C', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.HECO_TESTNET]: new Token(ChainId.HECO_TESTNET,"0x7aF326B6351C8A9b8fb8CD205CBe11d4Ac5FA836",18,"WHT",'Wrapped Ether'),
-  [ChainId.HECO_MAINNET]: new Token(ChainId.HECO_MAINNET,"0x5545153CCFcA01fbd7Dd11C0b23ba694D9509A6F",18,"WHT",'Wrapped Ether')
+  [ChainId.HECO_TESTNET]: new Token(
+    ChainId.HECO_TESTNET,
+    '0x7aF326B6351C8A9b8fb8CD205CBe11d4Ac5FA836',
+    18,
+    'WHT',
+    'Wrapped Ether'
+  ),
+  [ChainId.HECO_MAINNET]: new Token(
+    ChainId.HECO_MAINNET,
+    '0x5545153CCFcA01fbd7Dd11C0b23ba694D9509A6F',
+    18,
+    'WHT',
+    'Wrapped Ether'
+  ),
+  [ChainId.CUBE_TESTNET]: new Token(
+    ChainId.CUBE_TESTNET,
+    '0xB9164670A2F388D835B868b3D0D441fa1bE5bb00',
+    18,
+    'WCUBE',
+    'Wrapped CUBE'
+  ),
+  [ChainId.CUBE_MAINNET]: new Token(
+    ChainId.CUBE_MAINNET,
+    '0x9D3F61338d6Eb394e378D28C1Fd17d5909aC6591',
+    18,
+    'WCUBE',
+    'Wrapped CUBE'
+  )
 }
